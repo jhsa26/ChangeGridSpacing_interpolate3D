@@ -1,0 +1,3 @@
+When you obtain a MOD file, you want to produce a new MOD file with new grid spacing. So, you can
+
+use this script to interpolate a new MOD on a new suit of inversion grids.
