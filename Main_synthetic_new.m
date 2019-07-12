@@ -95,6 +95,6 @@ format_Z=[C{[2,ones(1,length(Z_NEW))]}];
 fprintf(fid,format_Z,Z_NEW);
 fprintf(fid,'\n');
 for  i=1:size(vs,1)
-    fprintf(fid,'%s\n',num2str(vp(i,:),'%8.3f'));
+    fprintf(fid,'%s\n',num2str(vs(i,:),'%8.3f'));
 end
 fclose(fid);
